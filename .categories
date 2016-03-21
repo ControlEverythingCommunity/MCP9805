@@ -2,4 +2,4 @@ lang:java
 lang:python
 lang:arduino
 lang:particle
-sku: MCP9805_I2CS
+sku:MCP9805_I2CS
