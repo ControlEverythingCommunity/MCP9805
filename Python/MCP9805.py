@@ -18,7 +18,7 @@ bus.write_i2c_block_data(0x18, 0x01, config)
 # MCP9805 address, 0x18(24)
 # Select resolution rgister, 0x08(8)
 #		0x03(03)	Resolution = +0.0625/C
-#bus.write_byte_data(0x18, 0x08, 0x03)
+bus.write_byte_data(0x18, 0x08, 0x03)
 
 time.sleep(0.5)
 
