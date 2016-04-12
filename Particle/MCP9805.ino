@@ -75,7 +75,7 @@ void loop()
     
     // Output data to dashboard
     Particle.publish("Temperature in Celsius : ", String(cTemp));
-    Particel.publish("Temperature in Fahrenheit : ", String(fTemp));
+    Particle.publish("Temperature in Fahrenheit : ", String(fTemp));
     delay(1000);
 }
 
