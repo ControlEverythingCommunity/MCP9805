@@ -30,7 +30,7 @@ void main()
 	config[1] = 0x00;
 	config[2] = 0x00;
 	write(file, config, 3);
-	// Select resolution rgister(0x80)
+	// Select resolution rgister(0x08)
 	// Resolution = +0.0625 / C(0x03)
 	config[0] = 0x08;
 	config[1] = 0x03;
